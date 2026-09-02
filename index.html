@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>天玥社區｜115年度區權會出席意願暨管理辦法意見回饋</title>
+  <style>
+
+:root{--navy:#082b60;--blue:#0b67c2;--teal:#0e8d8d;--gold:#c99118;--purple:#7041a2;--green:#268454;--ink:#14233b;--bg:#eef4fb}
+*{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#f6f9fd,#edf3f9);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif}
+.hero{background:linear-gradient(135deg,#061d43,#0b3c78);color:#fff;padding:24px max(20px,calc((100vw - 980px)/2));display:flex;align-items:center;gap:22px;border-bottom:5px solid #d6ad4c}
+.logo{width:92px;height:92px;object-fit:contain;background:#fff;border-radius:50%;padding:4px}.hero h1{margin:3px 0 5px;font-size:clamp(25px,4vw,40px)}.hero p,.eyebrow{margin:0;opacity:.9}.eyebrow{font-weight:700;letter-spacing:.05em}
+.wrap{max-width:980px;margin:24px auto;padding:0 16px 56px}.notice{background:#fff7dc;border:1px solid #e0b94d;padding:13px 16px;border-radius:12px;font-weight:700;margin-bottom:16px}
+.card{background:#fff;border:1px solid #ccd8e5;border-radius:15px;margin:16px 0;padding:18px;box-shadow:0 8px 28px rgba(8,43,96,.06);border-top:7px solid var(--blue)}
+.card h2{margin:0 0 16px;font-size:22px}.card h3{font-size:16px;margin:18px 0 10px}.teal{border-top-color:var(--teal)}.gold{border-top-color:var(--gold)}.purple{border-top-color:var(--purple)}.green{border-top-color:var(--green)}
+.grid.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}.choices,.checks{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.choices.compact{grid-template-columns:repeat(4,1fr)}
+label{font-weight:650}input[type=text],input[type=tel],input:not([type]),textarea{width:100%;margin-top:7px;border:1px solid #b9c6d6;border-radius:9px;padding:12px;font:inherit;background:#fbfdff}textarea{resize:vertical}
+.choices label,.checks label{background:#f7f9fc;border:1px solid #d6dfeb;border-radius:10px;padding:11px;font-weight:600}.hint,small{color:#5b6879}.status{margin-top:10px;font-weight:700}.ok{color:#1b7b48}.bad{color:#b22f35}
+.consent{background:#eef5ff;border:1px solid #c4d8ef;padding:14px;border-radius:10px;margin:18px 0}.submit{width:100%;border:0;border-radius:13px;padding:16px;font-size:20px;font-weight:800;background:linear-gradient(90deg,#082b60,#0d67bd);color:#fff;cursor:pointer}.submit:disabled{opacity:.55}
+.result{margin-top:14px;padding:0}.result.success,.result.error{padding:14px;border-radius:10px;font-weight:700}.result.success{background:#e9f8ef;color:#14653b}.result.error{background:#fdecec;color:#a1282d}
+footer{max-width:980px;margin:0 auto 35px;padding:15px 20px;display:flex;align-items:center;justify-content:center;gap:15px;color:#526176}footer img{height:50px;opacity:.55}
+@media(max-width:700px){.hero{align-items:flex-start}.logo{width:70px;height:70px}.grid.two,.choices,.choices.compact,.checks{grid-template-columns:1fr}.card{padding:15px}.hero h1{font-size:27px}}
+
+.gate-card{max-width:620px;margin:42px auto;background:#fff;border-radius:22px;padding:34px;box-shadow:0 18px 55px rgba(8,43,96,.13);text-align:center;border-top:7px solid #d6ad4c}
+.gate-logo{width:120px;height:120px;object-fit:contain;border-radius:50%;margin-bottom:12px}.gate-kicker{font-weight:800;color:#9a741e;letter-spacing:.08em}.gate-card h1{font-size:30px;color:#082b60;margin:8px 0}.gate-desc{color:#5c6878;line-height:1.7}
+.gate-fields{display:grid;grid-template-columns:1fr 1fr;gap:14px;text-align:left;margin:25px 0 18px}.gate-help{font-size:13px;color:#778392;margin-top:18px;line-height:1.6}
+.verified-box{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:center}.verified-box>div{background:#f4f8fc;border:1px solid #d4e0ec;padding:12px;border-radius:10px}.verified-box span{display:block;font-size:12px;color:#667487}.verified-box strong{font-size:18px}.verified-mark{color:#177347!important;font-weight:800}
+@media(max-width:700px){.gate-fields,.verified-box{grid-template-columns:1fr}.gate-card{margin:20px auto;padding:24px}}
+
+</style>
+</head>
+<body>
+<header class="hero">
+  <img class="logo" src="assets/logo_primary.jpeg" alt="天玥社區 Logo">
+  <div class="hero-copy">
+    <div class="eyebrow">天玥社區｜115年度區分所有權人會議</div>
+    <h1>出席意願回覆暨管理辦法意見回饋</h1>
+    <p>11月1日區權會</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="loginGate" class="gate-card">
+    <img src="assets/logo_primary.jpeg" class="gate-logo" alt="天玥社區 Logo">
+    <div class="gate-kicker">天玥社區｜住戶專屬</div>
+    <h1>區權會意見回饋系統</h1>
+    <p class="gate-desc">請輸入本戶「戶號」及專屬「驗證碼」，驗證完成後即可進入回饋頁面。</p>
+    <div class="gate-fields">
+      <label>戶號
+        <input id="loginUnit" placeholder="例：A2；店面填店A" autocomplete="off">
+      </label>
+      <label>驗證碼
+        <input id="loginCode" placeholder="TY-XXXX" maxlength="7" autocomplete="off">
+      </label>
+    </div>
+    <button id="loginBtn" type="button" class="submit">驗證並進入</button>
+    <div id="loginResult" class="result" aria-live="polite"></div>
+    <div class="gate-help">若遺失戶號或驗證碼，請洽管理室確認。請勿將本戶驗證資料轉傳他人。</div>
+  </section>
+
+  <div id="mainPage" class="locked-page" hidden>
+  <div class="notice">
+    本表僅供管理委員會掌握預計出席情形及彙整住戶意見，不具有區分所有權人會議表決、投票、委託或決議效力。
+  </div>
+
+  <form id="feedbackForm" autocomplete="off">
+    <section class="card blue">
+      <h2>A. 住戶驗證狀態</h2>
+      <div class="verified-box">
+        <div><span>戶號</span><strong id="verifiedUnit">—</strong></div>
+        <div><span>住戶識別碼</span><strong id="verifiedCode">—</strong></div>
+        <div class="verified-mark">✓ 已完成住戶驗證</div>
+      </div>
+      <input type="hidden" id="code" name="code">
+      <input type="hidden" id="unit" name="unit">
+    </section>
+
+    <section class="card teal">
+      <h2>B. 11月1日區權會出席意願</h2>
+      <div class="choices">
+        <label><input type="radio" name="attendance" value="本人預計出席" required> 本人預計出席</label>
+        <label><input type="radio" name="attendance" value="將委託代理人出席"> 將委託代理人出席</label>
+        <label><input type="radio" name="attendance" value="目前尚未確定"> 目前尚未確定</label>
+        <label><input type="radio" name="attendance" value="無法出席"> 無法出席</label>
+      </div>
+      <p class="hint">選擇「將委託代理人出席」仍須另行完成合法委託書並依規定送達；本回覆不具委託效力。</p>
+    </section>
+
+    <section class="card gold">
+      <h2>C.《管理委員選舉管理辦法》意見</h2>
+      <div class="choices compact">
+        <label><input type="radio" name="election_stance" value="原則支持" required> 原則支持</label>
+        <label><input type="radio" name="election_stance" value="支持但有修正建議"> 支持，但有修正建議</label>
+        <label><input type="radio" name="election_stance" value="不支持"> 不支持</label>
+        <label><input type="radio" name="election_stance" value="尚需進一步了解"> 尚需進一步了解</label>
+      </div>
+      <h3>希望表達意見的制度項目（可複選）</h3>
+      <div class="checks">
+        <label><input type="checkbox" name="election_topics" value="分棟選任"> 分棟選任（甲、乙、丙、丁各1名）</label>
+        <label><input type="checkbox" name="election_topics" value="不分區承續委員"> 不分區承續委員制度（1名）</label>
+        <label><input type="checkbox" name="election_topics" value="自願參選"> 自願參選制度</label>
+        <label><input type="checkbox" name="election_topics" value="住戶推舉"> 住戶推舉制度（20%門檻）</label>
+        <label><input type="checkbox" name="election_topics" value="候選不足強制輪值"> 候選不足時強制輪值</label>
+        <label><input type="checkbox" name="election_topics" value="停止輪值"> 完成任期後停止輪值（最長3年）</label>
+      </div>
+      <label>具體意見或修正建議
+        <textarea name="election_comment" rows="4"></textarea>
+      </label>
+    </section>
+
+    <section class="card purple">
+      <h2>D.《職務責任分擔金管理辦法》意見</h2>
+      <div class="choices compact">
+        <label><input type="radio" name="duty_stance" value="原則支持" required> 原則支持</label>
+        <label><input type="radio" name="duty_stance" value="支持但有修正建議"> 支持，但有修正建議</label>
+        <label><input type="radio" name="duty_stance" value="不支持"> 不支持</label>
+        <label><input type="radio" name="duty_stance" value="尚需進一步了解"> 尚需進一步了解</label>
+      </div>
+      <h3>希望表達意見的制度項目（可複選）</h3>
+      <div class="checks">
+        <label><input type="checkbox" name="duty_topics" value="自願拒任150%"> 自願當選後拒任（150%）</label>
+        <label><input type="checkbox" name="duty_topics" value="推舉拒任50%"> 推舉當選後拒任（50%）</label>
+        <label><input type="checkbox" name="duty_topics" value="輪值拒任100%"> 輪值當選後拒任（100%）</label>
+        <label><input type="checkbox" name="duty_topics" value="中途辭任"> 正式就任後無正當理由中途辭任</label>
+        <label><input type="checkbox" name="duty_topics" value="重大怠職"> 重大怠職／重大且持續怠職</label>
+        <label><input type="checkbox" name="duty_topics" value="基準額計算"> 分擔金基準額與計算方式</label>
+      </div>
+      <label>具體意見或修正建議
+        <textarea name="duty_comment" rows="4"></textarea>
+      </label>
+    </section>
+
+    <section class="card green">
+      <h2>E. 其他意見或建議</h2>
+      <textarea name="other_comment" rows="5" placeholder="其他希望管委會或區權會了解的事項"></textarea>
+    </section>
+
+    <section class="consent">
+      <label><input type="checkbox" required> 我已了解本表僅為意見及出席意願調查，正式議案仍以11月1日區分所有權人會議依法決議結果為準。</label>
+    </section>
+
+    <button id="submitBtn" class="submit" type="submit">送出回覆</button>
+    <div id="result" class="result" aria-live="polite"></div>
+  </form>
+  </div>
+</main>
+
+<footer>
+  <img src="assets/logo_secondary.jpeg" alt="">
+  <span>天玥社區管理委員會｜紙本與電子請擇一回覆</span>
+</footer>
+
+<script>
+window.TIANYUE_CONFIG = {
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbxAGbKkktQaXGHznApKdK0Atl4bQkF_olDJOcGAAP8FpSAWigIlp3RUm2Bq4LTlfOjJZg/exec",
+  MEETING_DATE: "2026-11-01",
+  FORM_CLOSE_DATE: "2026-10-20"
+};
+</script>
+<script>
+const cfg = window.TIANYUE_CONFIG || {};
+const form = document.getElementById('feedbackForm');
+const result = document.getElementById('result');
+const submitBtn = document.getElementById('submitBtn');
+const loginGate = document.getElementById('loginGate');
+const mainPage = document.getElementById('mainPage');
+const loginUnit = document.getElementById('loginUnit');
+const loginCode = document.getElementById('loginCode');
+const loginBtn = document.getElementById('loginBtn');
+const loginResult = document.getElementById('loginResult');
+
+function normUnit(v){
+  return (v||'').trim().toUpperCase().replace(/\s+/g,'').replace(/^店([A-I])$/i,(_,x)=>'店'+x.toUpperCase());
+}
+function normCode(v){
+  return (v||'').trim().toUpperCase().replace(/\s+/g,'').replace(/ＴＹ/g,'TY').replace(/[－–—﹣]/g,'-');
+}
+function apiReady(){
+  return /^https:\/\/script\.google\.com\//.test(cfg.APPS_SCRIPT_URL||'');
+}
+async function callApi(data){
+  if(!apiReady()) throw new Error('系統後端尚未完成設定，請洽管理室。');
+  const r = await fetch(cfg.APPS_SCRIPT_URL,{
+    method:'POST',
+    headers:{'Content-Type':'text/plain;charset=utf-8'},
+    body:JSON.stringify(data),
+    redirect:'follow'
+  });
+  const text=await r.text();
+  try{return JSON.parse(text);}catch(e){throw new Error('後端回傳格式異常');}
+}
+function setBusy(btn,busy,text){
+  btn.disabled=busy;
+  if(text) btn.textContent=text;
+}
+
+loginBtn.addEventListener('click', async ()=>{
+  const unit=normUnit(loginUnit.value), code=normCode(loginCode.value);
+  loginUnit.value=unit; loginCode.value=code;
+  if(!unit || !/^TY-\d{4}$/.test(code)){
+    loginResult.className='result error';
+    loginResult.textContent='請輸入正確的戶號及 TY-XXXX 驗證碼。';
+    return;
+  }
+  setBusy(loginBtn,true,'驗證中…');
+  loginResult.className='result'; loginResult.textContent='';
+  try{
+    const res=await callApi({action:'verify',unit,code});
+    if(!res.ok) throw new Error(res.message||'驗證失敗');
+    sessionStorage.setItem('tianyue_session',JSON.stringify({token:res.token,unit:res.unit,building:res.building}));
+    loginCode.value='';
+    enterMain(res.unit,res.building);
+  }catch(err){
+    loginResult.className='result error'; loginResult.textContent=err.message;
+  }finally{setBusy(loginBtn,false,'驗證並進入');}
+});
+[loginUnit,loginCode].forEach(el=>el.addEventListener('keydown',e=>{if(e.key==='Enter') loginBtn.click();}));
+
+function enterMain(unit,building){
+  document.getElementById('unit').value=unit;
+  document.getElementById('code').value='已由伺服器驗證';
+  document.getElementById('verifiedUnit').textContent=unit;
+  document.getElementById('verifiedCode').textContent='已驗證';
+  loginGate.hidden=true; mainPage.hidden=false;
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+(async function restore(){
+  try{
+    const s=JSON.parse(sessionStorage.getItem('tianyue_session')||'null');
+    if(!s?.token) return;
+    const res=await callApi({action:'check',token:s.token});
+    if(res.ok) enterMain(res.unit,res.building); else sessionStorage.removeItem('tianyue_session');
+  }catch(e){}
+})();
+
+function values(name){return [...form.querySelectorAll(`[name="${name}"]:checked`)].map(x=>x.value);}
+function payload(){
+  const fd=new FormData(form);
+  const s=JSON.parse(sessionStorage.getItem('tianyue_session')||'null');
+  return {
+    action:'submit', token:s?.token||'',
+    attendance:fd.get('attendance'),
+    election_stance:fd.get('election_stance'),
+    election_topics:values('election_topics'),
+    election_comment:fd.get('election_comment')||'',
+    duty_stance:fd.get('duty_stance'),
+    duty_topics:values('duty_topics'),
+    duty_comment:fd.get('duty_comment')||'',
+    other_comment:fd.get('other_comment')||''
+  };
+}
+form.addEventListener('submit',async e=>{
+  e.preventDefault();
+  const s=JSON.parse(sessionStorage.getItem('tianyue_session')||'null');
+  if(!s?.token){
+    mainPage.hidden=true; loginGate.hidden=false;
+    loginResult.className='result error'; loginResult.textContent='驗證已失效，請重新登入。'; return;
+  }
+  setBusy(submitBtn,true,'送出中…');
+  try{
+    const res=await callApi(payload());
+    if(!res.ok) throw new Error(res.message||'送出失敗');
+    result.className='result success';
+    result.textContent=res.updated?'已更新本戶最新回覆；舊回覆已保留為歷史紀錄。':'回覆已完成。感謝提供意見。';
+  }catch(err){
+    if(/逾時|重新登入/.test(err.message)){sessionStorage.removeItem('tianyue_session');}
+    result.className='result error'; result.textContent='送出失敗：'+err.message;
+  }finally{setBusy(submitBtn,false,'送出回覆');}
+});
+</script>
+</body>
+</html>
