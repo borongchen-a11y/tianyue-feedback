@@ -152,7 +152,7 @@ footer{max-width:980px;margin:0 auto 35px;padding:16px 20px;display:flex;align-i
 
 <script>
 window.TIANYUE_CONFIG = {
-  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbxAGbKkktQaXGHznApKdK0Atl4bQkF_olDJOcGAAP8FpSAWigIlp3RUm2Bq4LTlfOjJZg/exec",
+  API_URL: "/api",
   MEETING_DATE: "2026-11-01",
   FORM_CLOSE_DATE: "2026-10-20"
 };
@@ -176,11 +176,11 @@ function normCode(v){
   return (v||'').trim().toUpperCase().replace(/\s+/g,'').replace(/ＴＹ/g,'TY').replace(/[－–—﹣]/g,'-');
 }
 function apiReady(){
-  return /^https:\/\/script\.google\.com\//.test(cfg.APPS_SCRIPT_URL||'');
+  return cfg.API_URL === '/api';
 }
 async function callApi(data){
   if(!apiReady()) throw new Error('系統後端尚未完成設定，請洽管理室。');
-  const r = await fetch(cfg.APPS_SCRIPT_URL,{
+  const r = await fetch(cfg.API_URL,{
     method:'POST',
     headers:{'Content-Type':'text/plain;charset=utf-8'},
     body:JSON.stringify(data),
